@@ -1,0 +1,227 @@
+/* Estilos generales para el cuerpo y el encabezado */
+body {
+    background-image: url(../mvz/metricas_h.png);
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.158);
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 150px;
+    margin-left: 86.73px;
+    line-height: 1;
+    margin-top: -44px;
+    margin-bottom: 40px;
+    font-family: 'MiFuente', Arial, sans-serif;
+}
+
+div.sadman {
+    position: absolute;
+    top: 25px;
+    left: 39px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+div.frase {
+    font-size: 35px;
+    margin-left: 64px;
+    margin-top: 45px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+img {
+    width: 30px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 53px;
+}
+
+div.ig {
+    position: absolute;
+    margin-top: -25px;
+    left: 83px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+a.boton, a.botn, a.btn {
+    position: absolute;
+    top: 35px;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 5px 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+a.boton {
+    right: 129px;
+}
+
+a.botn {
+    right: 260px;
+}
+
+a.btn {
+    right: 394px;
+}
+
+/* Media Query para 480px */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 80px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.sadman {
+        top: 15px;
+        left: 15px;
+        font-size: 20px;
+    }
+
+    div.frase {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    img {
+        width: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    div.ig {
+        margin-top: -15px;
+        left: 46px;
+        font-size: 12px;
+    }
+
+    a.boton {
+        margin-top: 20px;
+        right: 15px;
+    }
+
+    a.botn {
+        margin-top: 20px;
+        right: 130px;
+    }
+
+    a.btn {
+        margin-top: 20px;
+        right: 247px;
+    }
+    footer{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 70%;
+        
+    }
+}
+
+/* Media Query para 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 120px;
+        margin-left: 30px;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    div.sadman {
+        top: 30px;
+        left: 30px;
+        font-size: 25px;
+    }
+
+    div.frase {
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    img {
+        width: 25px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    div.ig {
+        margin-top: -20px;
+        left: 65px;
+        font-size: 14px;
+    }
+
+    a.boton {
+        right: 30px;
+    }
+
+    a.botn {
+        right: 150px;
+    }
+
+    a.btn {
+        right: 270px;
+    }
+    
+}
+
+/* Media Query para 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 130px;
+        margin-left: 40px;
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+
+    div.sadman {
+        top: 40px;
+        left: 40px;
+        font-size: 35px;
+    }
+
+    div.frase {
+        font-size: 35px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    img {
+        width: 35px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    div.ig {
+        margin-top: -25px;
+        left: 80px;
+        font-size: 18px;
+    }
+
+    a.boton {
+        right: 40px;
+    }
+
+    a.botn {
+        right: 160px;
+    }
+
+    a.btn {
+        right: 280px;
+    }
+}

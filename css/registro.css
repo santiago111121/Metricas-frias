@@ -1,0 +1,122 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url(../mvz/regg.jpg);
+    background-color: rgba(0, 0, 0, 0.158);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: -50px;
+    font-weight: bold
+}
+
+form {
+    margin-top: 40px;
+    width: 470px;
+    background: url(../mvz/regg.jpg);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin-left: 20px; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: 1px solid #572b2b;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón */
+input[type="submit"] {
+    width: 100%;
+    background-color: #3d0423;
+    color: #9b6b6b;
+    padding: 16px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 27px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 10px; 
+    bottom: 10px; 
+    font-size: 16px;
+}
+
+/* Media Query para 480px */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    form {
+        width: 90%;
+        padding: 20px;
+        margin-left: 0px;
+    }
+}
+
+/* Media Query para 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        font-size: 36px;
+        margin-top: 0px;
+    }
+
+    form {
+        width: 70%;
+        padding: 40px;
+        margin-left:    0%;
+    }
+}
+
+/* Media Query para 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 20px;
+        
+    }
+
+    header {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    form {
+        width: 80%;
+        padding: 60px;
+        margin-left: 0%;
+    }
+}
